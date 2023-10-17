@@ -1,0 +1,207 @@
+// hover de las ul li del productos 
+
+
+.navul {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+
+
+}
+
+.navul ul:hover {
+    display: block;
+
+}
+
+.navul ul {
+    display: flex;
+    list-style: none;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.navul li a {
+    color: #595959;
+    font-family: 'Bryant-Medium', Arial, sans-serif;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+
+
+
+.navul li ul {
+
+    list-style: none;
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+
+.navul li:hover>ul {
+    display: block;
+    position: absolute;
+}
+
+//  
+// div de las ul y nav 
+.navardivcontainer {
+    width: 100%;
+    height: 90px;
+    background-color: #79c953;
+}
+
+
+.button_hamburguesa {
+
+
+
+    background-color: antiquewhite;
+}
+
+
+.divimgelogo {
+    width: 50%;
+    display: flex;
+ 
+
+
+    flex-direction: column;
+    align-items: center;
+
+    &_img {
+        margin-top: 17px;
+        width: 50px;
+
+    }
+    &_imgtwo{
+        width: 57px;
+    }
+}
+
+.Ullistproducts {
+
+    z-index: 1;
+    height: 125px;
+    margin-top: 1px;
+    margin-left:-20px;
+
+
+    border-radius: 2%;
+    background-color: #fff;;
+    ;
+
+    &_list {
+        margin-top: 20px;
+    }
+
+    &_href {
+        margin-top: 5px;
+        font-size: 16px;
+        font-family:  sans-serif;
+        color: #595959;
+
+
+    }
+
+}
+
+.divlistnavegable {
+    display: flex;
+   justify-content: center;
+    width: 100%;
+}
+
+
+.navhamburguesaitems {
+    display: flex;
+    margin-right: 20px;
+
+    &_ullisthamburguer {
+        list-style: none;
+
+        &_li {
+            &_a {
+                text-decoration: none;
+            }
+        }
+
+    }
+}
+
+.navhamburguesaitems {
+    display: flex;
+    margin-right: 20px;
+
+    &_ullisthamburguer {
+        list-style: none;
+
+        &_li {
+            &_a {
+                text-decoration: none;
+            }
+        }
+
+    }
+}
+
+.navhamburguesaitems {
+    display: flex;
+    margin-right: 20px;
+
+    &_ullisthamburguer {
+        list-style: none;
+
+        &_li {
+            &_a {
+                text-decoration: none;
+            }
+        }
+
+    }
+}
+
+.navhamburguesaitems {
+    margin-top: 10px;
+    display: flex;
+    margin-right: 20px;
+
+    &_hrefa {
+        text-decoration: none;
+    }
+
+    &_ullisthamburguer {
+        list-style: none;
+
+        &_li {
+            &_a {
+                text-decoration: none;
+            }
+        }
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 1023px) {
+    .navardivcontainer {
+
+        display: none;
+
+    }
+
+
+}
+
+
+@media screen and (min-width:1023px) {
+    .navhamburguesaitems {
+        display: none;
+    }
+
+}

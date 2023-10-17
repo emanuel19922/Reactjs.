@@ -1,0 +1,60 @@
+.Container {
+
+
+    display: block;
+    position: absolute;
+    z-index: +2;
+    background-color : #fff;
+   
+
+    &_ulserach {
+
+
+        list-style: none;
+        width: 100%;
+        padding: 0%;
+
+
+
+        &_list {
+            width: 100%;
+
+            &_href {
+                border-bottom: 1px solid rgba(0,0,0,0.12);
+                display: flex;
+                width: 100%;
+                text-decoration: none;
+                margin-top: 10px;
+
+                &_img {
+                 
+                        max-width: 100%;
+                        max-height: 45px;
+                        margin-left: 20px;
+                  
+                }
+                &_div{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 28px;
+
+                    &_title{
+                        color: #595959;
+                        margin-bottom: 0%;
+                        padding-right:65px;
+                    }
+                    &_price{
+                        margin-bottom: 0%;
+                        color: #337ab7;  
+                    }
+                }
+            }
+        }
+    }
+}
+
+.clasnamediv {
+    display: none;
+
+
+}

@@ -1,0 +1,21 @@
+.message-greeting-container{ 
+       height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+
+    .itemListContainer{
+      display: flex;
+      
+      justify-content: center;
+
+      &_list{
+        display: flex;
+       justify-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+
+      }
+     
+    }

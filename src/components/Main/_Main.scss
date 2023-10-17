@@ -1,0 +1,192 @@
+.carouseldiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+    &_container {
+        width: 1000px;
+
+        &_imagecarrusel {
+            height: 420px;
+            width: 1000px;
+            border-radius: 1%;
+        }
+    }
+}
+
+.colproduct {
+
+    height: 180px;
+
+    &_envios {
+        display: flex;
+        align-items: center;
+        color: #b55085;
+
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    &_cuotas {
+        display: flex;
+        align-items: center;
+        color: #79c953;
+
+        font-weight: bold;
+        font-size: 20px;
+
+    }
+
+    &_retiro {
+        display: flex;
+        align-items: center;
+        color: #e7346e;
+
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    &_compra {
+        display: flex;
+        align-items: center;
+        color: #0074d7;
+
+        font-weight: bold;
+        font-size: 20px;
+
+    }
+
+    &_img {
+        width: 50px;
+    }
+
+}
+
+.text span {
+    display: block;
+}
+
+.cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &_cart {
+        width: 300px;
+        margin: 20px;
+
+    }
+
+
+
+}
+
+.containstagram {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+    &_href {
+        display: inline-block;
+        text-decoration: none;
+        font-size: inherit;
+        text-rendering: auto;
+        color: #595959;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+
+        &_img {
+            margin-right: 15px;
+            width: 40px;
+
+        }
+    }
+
+
+
+}
+
+.containstagram_href:hover {
+    color: #595959;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .carouseldiv {
+        display: flex;
+        justify-content: center;
+
+        &_container {
+            width: 500px;
+
+            &_imagecarrusel {
+                height: 300px;
+                width: 500px;
+                border-radius: 1%;
+            }
+        }
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .carouseldiv {
+        display: flex;
+        justify-content: center;
+
+        &_container {
+            width: 310px;
+
+            &_imagecarrusel {
+                height: 300px;
+                width: 350px;
+                border-radius: 1%;
+            }
+        }
+    }
+
+    .text {
+        margin-top: 20px;
+    }
+
+    .cards {
+        margin-top: 150px;
+    }
+
+
+    .colproduct {
+
+        &_envios {
+            margin-left: 45px;
+        }
+
+        &_cuotas {
+            margin-left: 45px;
+
+        }
+
+        &_retiro {
+            margin-left: 45px;
+        }
+
+        &_compra {
+            margin-left: 45px;
+        }
+
+        &_img {
+            margin-left: 45px;
+        }
+
+    }
+
+}
