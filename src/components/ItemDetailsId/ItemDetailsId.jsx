@@ -18,7 +18,7 @@ const ItemDetailsId = () => {
 
     const getproduct = () => {
         const db = getFirestore();
-        const query = doc(db, 'products', id);
+        const query = doc(db, 'miapp2', id);
         getDoc(query)
             .then((response) => {
 
