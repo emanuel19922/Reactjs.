@@ -19,7 +19,7 @@ const SearchInput = () => {
 
         const db = getFirestore()
 
-        const querySnapshot = collection(db, 'miapp2')
+        const querySnapshot = collection(db, 'miapp')
 
 
         getDocs(querySnapshot)
